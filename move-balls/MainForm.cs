@@ -21,7 +21,7 @@ namespace move_balls
             {
                 balls[0].Move(10, 5);
                 balls[1].Move(-5, -5);
-                pictureBox.Invalidate();
+                pictureBox.Refresh();
             };
         }
         List<Ball> balls = new List<Ball>
