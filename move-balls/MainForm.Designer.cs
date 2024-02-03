@@ -1,6 +1,6 @@
 ﻿namespace move_balls
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -35,6 +35,7 @@
             // 
             // pictureBox
             // 
+            pictureBox.BackColor = Color.White;
             pictureBox.Location = new Point(12, 12);
             pictureBox.Name = "pictureBox";
             pictureBox.Size = new Size(300, 300);
@@ -50,15 +51,15 @@
             buttonMove.Text = "Move";
             buttonMove.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // MainForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(518, 382);
             Controls.Add(buttonMove);
             Controls.Add(pictureBox);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "MainForm";
+            Text = "Main Form";
             ((System.ComponentModel.ISupportInitialize)pictureBox).EndInit();
             ResumeLayout(false);
         }
